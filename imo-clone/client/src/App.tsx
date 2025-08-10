@@ -125,7 +125,7 @@ export default function App() {
   const user = useAuthStore((s) => s.user);
   return (
     <div style={{ padding: 16 }}>
-      <h2>IMO-style MVP</h2>
+      <h2>UMeet</h2>
       {user ? <Chat /> : <Login />}
     </div>
   );
